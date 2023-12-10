@@ -34,7 +34,7 @@ https://drive.google.com/drive/folders/1uKioGkU617hFeS1FDfxffH8nPRjaOSek?usp=sha
 
 ### 6.	Classify unmonitored dataset with 5 models
 
-# Conclusion
+## Conclusion
 |Model|Reason for Selection|Outcome|
 |------|---|---|
 |Logistic Regression, Linear SVM|Effective if the dataset is linear|The completed tuning results indicate that a high C value leads to fitting excessively, causing overfitting, revealing that our data is non-linear. The accuracy was not bad.|
