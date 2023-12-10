@@ -1,12 +1,35 @@
-Before execute code in colab, file below should be prepared under 'content/drive/MyDrive/' 
+#ML23-2
+Machine Learning 2023-2
 
+##binary_classification.ipynb
+###Before execute code in google colab, file below should be prepared under 'content/drive/MyDrive/' 
 1. unmon_standard10.pkl
 2. data_arrays_1.npz
 3. data_arrays_2.npz
 4. data_arrays_3.npz
 5. data_arrays_4.npz
-
-data_arrays file link:
+- data_arrays file link:
 https://drive.google.com/drive/folders/1uKioGkU617hFeS1FDfxffH8nPRjaOSek?usp=sharing
+- npz files consists of features.
 
-data arrays npz files consists of features.
+##Steps
+###1.	Prepare features from unmonitored data: 
+- directly extract features from unmon_standard10.pkl
+
+###2.	Load monitored data & transform to Dataframe: 
+- load data_arrays_1npz to data_arrays_4.npz. File consists of features(X1, X5, X6, X7, X9, X12, X14) that have already preprocessed. 
+
+###3.	Transform unmonitored data(at 1) to Dataframe.
+
+###4.	Make total data set: unmonitored data + monitored data
+
+###5.	Model training & testing(with model evaluation for each model, and hyperparameter tuning for each model except Naïve Bayes)
+- Split dataset
+-	Logistic Regression
+-	Linear SVM
+-	SVM with RBF
+-	Naïve Bayes
+-	Decision Tree
+-	Overall model evaluation
+
+###6.	Classify unmonitored dataset with 5 models
