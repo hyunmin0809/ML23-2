@@ -1,4 +1,5 @@
-<h1>Machine Learning 2023-2 - ML23-2</h1>
+# ML23-2
+Machine Learning 2023-2
 
 <h2>Features Extracted</h2>
 
