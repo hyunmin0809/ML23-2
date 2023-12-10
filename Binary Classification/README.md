@@ -17,7 +17,7 @@ https://drive.google.com/drive/folders/1uKioGkU617hFeS1FDfxffH8nPRjaOSek?usp=sha
 - directly extract features from unmon_standard10.pkl
 
 ### 2.	Load monitored data & transform to Dataframe: 
-- load data_arrays_1npz to data_arrays_4.npz. File consists of features(X1, X5, X6, X7, X9, X12, X14) that have already preprocessed. 
+- load data_arrays_1npz to data_arrays_4.npz. File consists of features(X1, X5, X6, X7, X9, X12, X14) that have already been preprocessed. 
 
 ### 3.	Transform unmonitored data(at 1) to Dataframe.
 
