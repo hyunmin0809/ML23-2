@@ -2,6 +2,19 @@
 Machine Learning 2023-2
 
 ## binary_classification.ipynb
+
+### Experiment setting
+
+The experimental setup replicates the default environment provided by Colab.
+
+- RAM: 12.7GB
+- Disk: 107.7GB
+
+Size of Data:
+
+- 19,000 samples for monitored data
+- 10,000 samples for unmonitored data
+
 ### Before execute code in google colab, file below should be prepared under 'content/drive/MyDrive/' 
 1. unmon_standard10.pkl
 2. data_arrays_1.npz
