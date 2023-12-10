@@ -38,11 +38,12 @@ https://drive.google.com/drive/folders/1uKioGkU617hFeS1FDfxffH8nPRjaOSek?usp=sha
 
 ### 5.	Model training & testing(with model evaluation for each model, and hyperparameter tuning for each model except Naïve Bayes)
 - Split dataset
--	Logistic Regression
--	Linear SVM
--	SVM with RBF
--	Naïve Bayes
--	Decision Tree
+- Model training & testing
+--	Logistic Regression
+--	Linear SVM
+--	SVM with RBF
+--	Naïve Bayes
+--	Decision Tree
 -	Overall model evaluation
 
 ### 6.	Classify unmonitored dataset with 5 models
