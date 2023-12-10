@@ -16,7 +16,7 @@ Size of Data:
 - 10,000 samples for unmonitored data
 
 ### Before execute code in google colab, file below should be prepared under 'content/drive/MyDrive/' 
-1. unmon_standard10.pkl
+1. unmon_standard10.pkl(Original data given)
 2. data_arrays_1.npz
 3. data_arrays_2.npz
 4. data_arrays_3.npz
