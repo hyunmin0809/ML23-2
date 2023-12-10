@@ -2,7 +2,7 @@
 
 <h2>Features Extracted</h2>
 
-<h3>data_pre_1.ipynb</h3>
+<h3>1. data_pre_1.ipynb</h3>
 <ul>
   <li>X1: Timestamp sequences representing the occurrence of network events.</li>
   <li>X2: Direction * packet size information extracted from the data.</li>
@@ -29,7 +29,7 @@
 </ol>
  
 <br>
-<h3>data_pre_2.ipynb</h3>
+<h3>2. data_pre_2.ipynb</h3>
 <ul>
   <li>X4: Cumulative packet sizes for each instance.</li>
   <li>X5: Number of incoming packets (Rank 1 categorical feature).</li>
@@ -52,7 +52,7 @@
 </ol>
 
 <br>
-<h3>data_pre_3.ipynb</h3>
+<h3>3. data_pre_3.ipynb</h3>
 <ul>
   <li>X8: Standard deviation of the outgoing packet ordering list (Rank 4 categorical feature).</li>
   <li>X9: Number of outgoing packets (Rank 5 categorical feature).</li>
