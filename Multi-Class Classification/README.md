@@ -34,11 +34,22 @@ Size of Data:
 
 The result presents the outcome of training a model using seven features for binary classification. As the performance was unsatisfactory, we have decided to re-adjust the features in the secondary analysis of the multimodel approach.
 
-## multimodel 2차
 
+## multimodel_closedWorld.ipynb
+### 1. Load features from monitored data:
+- load data_arrays_1.npz to data_arrays_4.npz. File and unmon_data.npz File consists of features(X1, X3, X5, X6, X7, X8, X9, X11, X12, X14, X15, X16, X17) that have already preprocessed.
+
+### 2. Model training & testing (with model evaluation for each model, and hyperparameter tuning for each model)
+- Logistic Regression (sampled data, pca, batch training)
+- Decision Tree
+- Random Forest
+- KNN
+- SVM (RBF, Linear)
+
+## multimodel_openWorld.ipynb
 ### 1. Load features from monitored & unmonitored data:
 
-- load data_arrays_1npz to data_arrays_4.npz. File and unmon_data.npz File consists of features(X1, X3, X5, X6, X7, X8, X9, X11, X12, X14, X15, X16, X17) that have already preprocessed.
+- load data_arrays_1.npz to data_arrays_4.npz. File and unmon_data.npz File consists of features(X1, X3, X5, X6, X7, X8, X9, X11, X12, X14, X15, X16, X17) that have already preprocessed.
 
 ### 2. Create a total dataset by merging monitored and unmonitored data.
 
