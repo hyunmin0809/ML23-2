@@ -67,3 +67,13 @@ The result presents the outcome of training a model using seven features for bin
 | KNN                 | Inspired by the mention of using KNN for fingerprinting hacking         | Poor performance, possibly attributed to data imbalance. In practical fingerprinting scenarios, the model might require weighted class handling to be appropriate. |
 | SVM (RBF Kernel)    | Similar to logistic regression, chosen for promising results            | Successful operation, but tuning is crucial due to sensitivity to parameter values.                                                                                |
 | SVM (Linear Kernel) | Selected for its feature importance and efficiency in handling features | Unimpressive results, akin to logistic regression. The low performance is attributed to the non-linear nature of the data.                                         |
+
+
+## Note 
+If you don't proceed in the correct order, you may encounter an error message like 
+
+- "'DataFrame' object has no attribute 'ravel'." 
+
+In such cases, you can resolve this by adding 'values.' before 'ravel'.
+
+
